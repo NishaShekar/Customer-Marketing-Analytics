@@ -23,7 +23,7 @@ SELECT COUNT(*) AS total_events FROM events;
 SET GLOBAL local_infile = 1;
 SHOW VARIABLES LIKE 'local_infile';
 
-LOAD DATA LOCAL INFILE 'C:/Users/Nisha/Desktop/Nisha/Projects/Cafe+Rewards+Offers/events.csv'
+LOAD DATA LOCAL INFILE 'PATH_TO_YOUR_DATA/events.csv'
 INTO TABLE events
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
